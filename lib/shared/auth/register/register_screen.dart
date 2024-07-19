@@ -18,16 +18,16 @@ import 'package:progress_soft_app/shared/widgets/fields/field_1.dart';
 
 import '../../../../../shared/local/theme/theme.dart';
 
-class RegesterScreen extends StatefulWidget {
-  const RegesterScreen({
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({
     super.key,
   });
 
   @override
-  State<RegesterScreen> createState() => _RegesterScreenState();
+  State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
-class _RegesterScreenState extends State<RegesterScreen> {
+class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +36,7 @@ class _RegesterScreenState extends State<RegesterScreen> {
         backgroundColor: AppTheme.whiteTextColor,
         toolbarHeight: 40.0,
         title: const Text(
-          "Regester",
+          "Register",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -228,7 +228,7 @@ class _RegesterScreenState extends State<RegesterScreen> {
                                                     .validate()){ cubit.register(context);}
                              
                             },
-                            text: "Regester"),
+                            text: "Register"),
                         SizedBox(height: 24.h),
                       ],
                     ),

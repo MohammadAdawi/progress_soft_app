@@ -99,10 +99,10 @@ class LoginCubit extends Cubit<LoginStates> {
               Navigator.of(context).pop();
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const RegesterScreen()),
+                MaterialPageRoute(builder: (context) => const RegisterScreen()),
               );
             },
-          ),
+          ), 
         ],
       ),
     );

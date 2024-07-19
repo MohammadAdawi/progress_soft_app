@@ -240,7 +240,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     DefaultTextButton(
                                       function: () {
                                         AppRouter.push(
-                                            screen: const RegesterScreen());
+                                            screen: const RegisterScreen());
                                       },
                                       text: "SignUp",
                                     ),
